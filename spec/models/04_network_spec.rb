@@ -19,8 +19,9 @@ describe Network do
 
   describe "#sorry" do
     it "apologizes for passing on John Mulaney's Pilot" do
-      expect(nbc.sorry).to eq("We're sorry about passing on John Mulaney's pilot")
+      expect(nbc.sorry).to eq(
+        "We're sorry about passing on John Mulaney's pilot"
+      )
     end
   end
-  
 end
